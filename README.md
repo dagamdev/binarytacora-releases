@@ -28,29 +28,47 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 - **Registro automático** — cada operación (binaria, turbo o digital) se guarda con su entrada, cierre, resultado y
   payout, con avisos al abrir y cerrar. Funciona con cuentas demo, reales y torneos.
 - **Gráfico de cada operación** — guarda las velas de antes y después de la entrada en el momento en que operas, y
-  marca la entrada, el cierre y el resultado. Puedes cambiar de temporalidad y ver las velas en vivo mientras la
-  operación sigue abierta.
+  marca la entrada, el cierre y el resultado. Puedes cambiar de temporalidad (manteniendo el rango de tiempo) y ver
+  las velas en vivo mientras la operación sigue abierta. Recuerda el zoom y la posición de cada operación.
 - **Diario** — al cerrar una operación aparece un registro rápido (sin interrumpirte) para anotar estrategia, patrón,
   confluencias, errores, emociones y notas. Lo que no registres queda pendiente para completarlo después.
 - **Estadísticas** — winrate, PnL, expectativa, drawdown, rachas y mapa de calor por horario; también por estrategia y
   por patrón, y de disciplina (si seguiste tu plan, emociones, costo de los errores). Desde cada estadística puedes ir
   a repasar las operaciones en el gráfico.
-- **Filtros y sesiones** — por cuenta, broker, activo, resultado, torneo y fechas; las sesiones de trading se agrupan
-  solas y puedes añadirles notas.
+- **Límites diarios** — pérdida máxima, objetivo de ganancia, monto por entrada, operaciones por día, pérdidas
+  seguidas y pausa tras una pérdida. Te avisa en la app y con una notificación de Windows; nunca toca tu cuenta.
+- **Sesiones** — tus operaciones se agrupan en sesiones; al terminar una (con el botón «Terminar sesión» o tras un
+  rato sin operar) ves su resumen: resultado, winrate, rachas, plan seguido, errores, límites del día y notas.
+- **Filtros** — por cuenta, broker, activo, resultado, torneo y fechas. La lista se puede ocultar para dar más
+  espacio al gráfico.
 - **Exportar** — tus datos en CSV o JSON y respaldo completo de la base.
 - **Tema oscuro y claro**, o el del sistema.
 
 ## Planes
 
-- **Gratuito** — todo lo anterior, con velas de 1 minuto en adelante.
-- **Pro** — además guarda velas de 5 a 30 segundos. Para conseguirlo escríbeme por Telegram a
-  [@dagamdev](https://t.me/dagamdev).
+- **Gratuito** — todo lo anterior, con velas de 1 minuto en adelante, e importa el historial de los últimos 7 días.
+- **Pro** — además:
+  - guarda velas de 5 a 30 segundos;
+  - importa todo el historial que tenga el broker;
+  - muestra el gráfico de cada operación con los colores de velas, indicadores (EMA, SMA, Bollinger, Alligator,
+    Parabolic SAR, Fractales) y dibujos que tenías en la plataforma del broker.
+
+  Para conseguirlo escríbeme por Telegram a [@dagamdev](https://t.me/dagamdev).
 
 ## Privacidad
 
-Tus operaciones, velas, diario y estadísticas se guardan **solo en tu PC** y no se suben a ningún servidor. La sesión
+Tus operaciones, velas, diario, sesiones y estadísticas (y, con el Pro, la copia de los colores, indicadores y dibujos
+de tus gráficos) se guardan **solo en tu PC** y no se suben a ningún servidor. La sesión
 del broker se guarda en el Administrador de credenciales de Windows, y la app nunca ve tu contraseña. Para saber tu
 plan solo se envía tu ID de usuario del broker y la versión de la app. Sin publicidad ni analítica.
+
+## Aviso
+
+Binarytacora es un proyecto independiente: **no está afiliado, respaldado ni patrocinado** por Exnova, IQ Option ni
+Casa Trade. Sus nombres y marcas pertenecen a sus dueños y aquí solo indican con qué brokers funciona la app.
+
+La app se conecta al broker con tu sesión mediante una conexión propia de **solo lectura**, aparte de la plataforma
+que tienes abierta. Los brokers no aprueban ni respaldan herramientas de terceros: úsala bajo tu propio criterio.
 
 ---
 

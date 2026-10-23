@@ -35,10 +35,12 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 - **Estadísticas** — winrate, PnL, expectativa, drawdown, rachas y mapa de calor por horario; también por estrategia y
   por patrón, y de disciplina (si seguiste tu plan, emociones, costo de los errores). Desde cada estadística puedes ir
   a repasar las operaciones en el gráfico.
-- **Límites diarios** — pérdida máxima, objetivo de ganancia, monto por entrada, operaciones por día, pérdidas
-  seguidas y pausa tras una pérdida. Te avisa en la app y con una notificación de Windows; nunca toca tu cuenta.
+- **Límites de operación** — arma reglas con pérdida máxima, objetivo de ganancia, monto por entrada, número de
+  operaciones, pausa tras una pérdida y límites por resultado (ganadas o perdidas seguidas y en total). Cada regla
+  elige sus brokers y si aplica a la cuenta real, a la demo o a ambas. Te avisa en la app y con una notificación de
+  Windows; nunca toca tu cuenta.
 - **Sesiones** — tus operaciones se agrupan en sesiones; al terminar una (con el botón «Terminar sesión» o tras un
-  rato sin operar) ves su resumen: resultado, winrate, rachas, plan seguido, errores, límites del día y notas.
+  rato sin operar) ves su resumen: resultado, winrate, rachas, plan seguido, errores, cómo vas en tus límites y notas.
 - **Filtros** — por cuenta, broker, activo, resultado, torneo y fechas. La lista se puede ocultar para dar más
   espacio al gráfico.
 - **Exportar** — tus datos en CSV o JSON y respaldo completo de la base.
@@ -46,10 +48,12 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 
 ## Planes
 
-- **Gratuito** — todo lo anterior, con velas de 1 minuto en adelante, e importa el historial de los últimos 7 días.
+- **Gratuito** — todo lo anterior, con velas de 1 minuto en adelante y límites por día, e importa el historial de
+  los últimos 7 días.
 - **Pro** — además:
   - guarda velas de 5 a 30 segundos;
   - importa todo el historial que tenga el broker;
+  - límites por sesión, que se reinician al terminar cada sesión;
   - muestra el gráfico de cada operación con los colores de velas, indicadores (EMA, SMA, Bollinger, Alligator,
     Parabolic SAR, Fractales) y dibujos que tenías en la plataforma del broker.
 

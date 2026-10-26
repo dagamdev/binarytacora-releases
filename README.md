@@ -1,6 +1,7 @@
 # Binarytacora
 
-Bitácora de trading de opciones binarias para Windows, compatible con **IQ Option**, **Exnova** y **Casa Trade**.
+Bitácora de trading de opciones binarias para Windows, compatible con **IQ Option**, **Exnova**, **Casa Trade** y
+**Pocket Option**.
 
 Conectas tu cuenta y la app registra sola cada operación que haces, guarda las velas de alrededor para que
 puedas repasarla después, y te ayuda a llevar un diario y medir tu operativa con estadísticas.
@@ -68,8 +69,8 @@ plan solo se envía tu ID de usuario del broker y la versión de la app. Sin pub
 
 ## Aviso
 
-Binarytacora es un proyecto independiente: **no está afiliado, respaldado ni patrocinado** por Exnova, IQ Option ni
-Casa Trade. Sus nombres y marcas pertenecen a sus dueños y aquí solo indican con qué brokers funciona la app.
+Binarytacora es un proyecto independiente: **no está afiliado, respaldado ni patrocinado** por Exnova, IQ Option,
+Casa Trade ni Pocket Option. Sus nombres y marcas pertenecen a sus dueños y aquí solo indican con qué brokers funciona la app.
 
 La app se conecta al broker con tu sesión mediante una conexión propia de **solo lectura**, aparte de la plataforma
 que tienes abierta. Los brokers no aprueban ni respaldan herramientas de terceros: úsala bajo tu propio criterio.

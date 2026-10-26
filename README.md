@@ -22,12 +22,14 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 1. Abre la app y acepta la nota de privacidad.
 2. En **Configuración**, elige tu broker e inicia sesión en su página (se abre en una ventana aparte).
 3. Opera como siempre en la plataforma del broker: las operaciones aparecen en Binarytacora al abrirse y al cerrarse.
-4. Si quieres tus operaciones de antes, usa **Configuración › Importar historial**.
+4. Si quieres tus operaciones de antes, usa **Configuración › Importar historial** (en Pocket Option solo trae las
+   últimas 20 de cada cuenta: es todo lo que da la plataforma).
 
 ## Qué hace
 
 - **Registro automático** — cada operación (binaria, turbo o digital) se guarda con su entrada, cierre, resultado y
-  payout, con avisos al abrir y cerrar. Funciona con cuentas demo, reales y torneos.
+  payout, con avisos al abrir y cerrar. Funciona con cuentas demo, reales y torneos (los torneos, por ahora, solo en
+  IQ Option, Exnova y Casa Trade).
 - **Gráfico de cada operación** — guarda las velas de antes y después de la entrada en el momento en que operas, y
   marca la entrada, el cierre y el resultado. Puedes cambiar de temporalidad (manteniendo el rango de tiempo) y ver
   las velas en vivo mientras la operación sigue abierta. Recuerda el zoom y la posición de cada operación.
@@ -46,6 +48,10 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
   espacio al gráfico.
 - **Exportar** — tus datos en CSV o JSON y respaldo completo de la base.
 - **Tema oscuro y claro**, o el del sistema.
+
+> **Pocket Option:** la plataforma solo guarda tus últimas 20 operaciones cerradas de cada cuenta, y por alrededor de
+> una semana. Lo que hagas con la app cerrada se recupera al abrirla solo si sigue entre esas: ten la app abierta
+> mientras operas.
 
 ## Planes
 

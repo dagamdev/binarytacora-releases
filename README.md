@@ -28,8 +28,8 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 ## Qué hace
 
 - **Registro automático** — cada operación (binaria, turbo o digital) se guarda con su entrada, cierre, resultado y
-  payout, con avisos al abrir y cerrar. Funciona con cuentas demo, reales y torneos (los torneos, por ahora, solo en
-  IQ Option, Exnova y Casa Trade).
+  payout, con avisos al abrir y cerrar. Funciona con cuentas demo, reales y torneos (los torneos, solo en IQ Option,
+  Exnova y Casa Trade: los de Pocket Option no se admiten).
 - **Gráfico de cada operación** — guarda las velas de antes y después de la entrada en el momento en que operas, y
   marca la entrada, el cierre y el resultado. Puedes cambiar de temporalidad (manteniendo el rango de tiempo) y ver
   las velas en vivo mientras la operación sigue abierta. Recuerda el zoom y la posición de cada operación.
@@ -51,7 +51,8 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 
 > **Pocket Option:** la plataforma solo guarda tus últimas 20 operaciones cerradas de cada cuenta, y por alrededor de
 > una semana. Lo que hagas con la app cerrada se recupera al abrirla solo si sigue entre esas: ten la app abierta
-> mientras operas.
+> mientras operas. Sus **torneos no se admiten**: no inicies sesión en la app desde un torneo, porque se guardaría
+> como tu cuenta real.
 
 ## Planes
 

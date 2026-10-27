@@ -44,7 +44,8 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
   Windows; nunca toca tu cuenta.
 - **Sesiones** — tus operaciones se agrupan en sesiones; al terminar una (con el botón «Terminar sesión» o tras un
   rato sin operar) ves su resumen: resultado, winrate, rachas, plan seguido, errores, cómo vas en tus límites y notas.
-- **Filtros** — por cuenta, broker, activo, resultado, torneo y fechas. La lista se puede ocultar para dar más
+- **Filtros** — por cuenta, broker, activo, resultado, torneo y fechas; se recuerdan al cerrar la app. La lista se
+  puede ocultar para dar más
   espacio al gráfico.
 - **Exportar** — tus datos en CSV o JSON y respaldo completo de la base.
 - **Tema oscuro y claro**, o el del sistema.

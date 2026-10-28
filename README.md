@@ -57,11 +57,13 @@ La app se actualiza sola: cuando hay una versión nueva te avisa y la instala si
 ## Planes
 
 - **Gratuito** — todo lo anterior, con velas de 1 minuto en adelante y límites por día, e importa el historial de
-  los últimos 7 días.
+  los últimos 7 días. Los textos del diario tienen límite de caracteres (análisis 2 000, lección 1 000, notas de
+  sesión 3 000).
 - **Pro** — además:
   - guarda velas de 5 a 30 segundos;
   - importa todo el historial que tenga el broker;
   - límites por sesión, que se reinician al terminar cada sesión;
+  - textos del diario sin límite de caracteres;
   - muestra el gráfico de cada operación con los colores de velas, indicadores (EMA, SMA, Bollinger, Alligator,
     Parabolic SAR, Fractales) y dibujos que tenías en la plataforma del broker.
 
